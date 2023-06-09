@@ -1,4 +1,4 @@
-# Instruction tuning for LLMs
+# A Survey of Instruction tuning for LLMs
 
 Language models are pretrained to predict the next token at an incredible scale, allowing them to learn general-purpose representations that can be transferred to nearly any language understanding or generation task. 
 To enable this transfer, various methods for aligning language models have thus been proposed, primarily focusing on **instruction tuning** over (instruction, intput, output) triplet datasets.
