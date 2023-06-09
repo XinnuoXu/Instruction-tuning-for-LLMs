@@ -24,7 +24,7 @@ This repo is a literature review for instruction tunning for LLMs.
 
 Licenses for using OpenAI product to generate data: [Prohibit developing models that cmpete with OpenAI](https://openai.com/policies/terms-of-use).
 
-[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) :x:
   * Base model: LLaMA-7B
   * Resource of instruction data: 
     - 175 human-written self-instruct seeds
@@ -34,7 +34,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: No
   * Licenses: Alpaca is intended and licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. The weight diff is also CC BY NC 4.0 (allowing only non-commercial use).
 
-[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
+[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
   * Base model: GPT-3 175B (text-davinci-001)
   * Resource of instruction data: 
     - 175 human-written self-instruct seeds
@@ -44,7 +44,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: No
   * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
 
-[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf)
+[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
   * Base model: LLaMA-65B
   * Resource of instruction data: 
     - Stack Exchanges
@@ -57,7 +57,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: No
   * Licenses: Unclear
 
-[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402)
+[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402) :x:
   * Base model: Smaller scaled models (61M to 1.5B) (T5 all sizes, Flan-T5 all sizes, Cereberas-GPT all sizes, GPT-2 all sizes, GPT-Neo)
   * Resource of instruction data: 
     - Existing instuction datasets (self-instuct, P3, FLAN, Alpaca)
@@ -70,7 +70,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Code: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
     - Data: CC BY NC 4.0 (allowing only non-commercial use)
 
-[SAIL: Search-Augmented Instruction Learning](https://arxiv.org/abs/2305.15225)
+[SAIL: Search-Augmented Instruction Learning](https://arxiv.org/abs/2305.15225) :white_check_mark:
   * Base model: LLaMA-7B
   * Resource of instruction data: 
     - Existing instuction datasets Alpaca
