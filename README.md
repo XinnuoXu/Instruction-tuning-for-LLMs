@@ -79,3 +79,99 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: Yes
   * Offering data or data-collection tool: Tool
   * Licenses: [GNU General Public License v3.0](https://github.com/facebookresearch/llama/blob/main/LICENSE) Software under the GPL may be run for all purposes, including commercial purposes and even as a tool for creating proprietary software, such as when using GPL-licensed compilers. Users or companies who distribute GPL-licensed works (e.g. software), may charge a fee for copies or give them free of charge.
+
+[MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://openreview.net/pdf?id=9Vrb9D0WI4)(P3)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/pdf/2301.13688.pdf)(FLAN)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Learning from Task Descriptions](https://aclanthology.org/2020.emnlp-main.105/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Cross-Task Generalization via Natural Language Crowdsourcing Instructions](https://aclanthology.org/2022.acl-long.244/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)(ChatGPT)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[ConTinTin: Continual Learning from Task Instructions](https://aclanthology.org/2022.acl-long.218/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[InstructDial: Improving Zero and Few-shot Generalization in Dialogue through Instruction Tuning](https://aclanthology.org/2022.emnlp-main.33/)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
