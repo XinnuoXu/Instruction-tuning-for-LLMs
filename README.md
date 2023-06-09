@@ -175,3 +175,16 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks:
   * Offering data or data-collection tool: 
   * Licenses: 
+
+[OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://arxiv.org/pdf/2304.07327.pdf)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+[Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
+
+[StackLLaMA: A hands-on guide to train LLaMA with RLHF](https://github.com/huggingface/blog/blob/main/stackllama.md)
+
