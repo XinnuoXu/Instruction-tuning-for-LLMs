@@ -21,3 +21,10 @@ This repo is a literature review for instruction tunning for LLMs.
   - Licenses: 
 
 ## Instruction Tuning
+
+[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+  * Base model: LLaMA
+  * Resource of instruction data: 
+    - 175 human-written self-instruct seeds
+    - text-davinci-003
+  * Licenses: Alpaca is intended and licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. The weight diff is also CC BY NC 4.0 (allowing only non-commercial use).
