@@ -8,7 +8,7 @@ This repo is a literature review for instruction tunning for LLMs.
 ## Existing LLMs
 
 * [LLaMA](https://arxiv.org/abs/2302.13971)
-  - Scales: 13B, 65B
+  - Scales: 7B, 13B, 65B
   - Licenses: [GNU General Public License v3.0](https://github.com/facebookresearch/llama/blob/main/LICENSE)
 * [Chinchilla]
   - Scales: 70B
@@ -23,8 +23,31 @@ This repo is a literature review for instruction tunning for LLMs.
 ## Instruction Tuning
 
 [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
-  * Base model: LLaMA
+  * Base model: LLaMA-7B
   * Resource of instruction data: 
     - 175 human-written self-instruct seeds
-    - text-davinci-003
+    - Automatic augmentation using text-davinci-003
+  * Amount of instruction data (after augmenting): 52K
   * Licenses: Alpaca is intended and licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. The weight diff is also CC BY NC 4.0 (allowing only non-commercial use).
+
+[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf)
+  * Base model: LLaMA-65B
+  * Resource of instruction data: 
+    - Stack Exchanges
+    - wikiHow
+    - Pushshift Reddit
+    - Super-Natural Instructions
+    - Humman annotated data
+  * Amount of instruction data (after augmenting): 1000
+  * Licenses: Unclear
+
+[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf)
+  * Base model: LLaMA-65B
+  * Resource of instruction data: 
+    - Stack Exchanges
+    - wikiHow
+    - Pushshift Reddit
+    - Super-Natural Instructions
+    - Humman annotated data
+  * Amount of instruction data (after augmenting): 1000
+  * Licenses: Unclear
