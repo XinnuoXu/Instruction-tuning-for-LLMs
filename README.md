@@ -9,7 +9,7 @@ This repo is a literature review for instruction tunning for LLMs.
 
 * [LLaMA](https://arxiv.org/abs/2302.13971)
   - Scales: 13B, 65B
-  - Licenses: (GNU General Public License v3.0)[https://github.com/facebookresearch/llama/blob/main/LICENSE]
+  - Licenses: [GNU General Public License v3.0](https://github.com/facebookresearch/llama/blob/main/LICENSE)
 * [Chinchilla]
   - Scales: 70B
   - Licenses: 
