@@ -22,6 +22,8 @@ This repo is a literature review for instruction tunning for LLMs.
 
 ## Instruction Tuning
 
+Licenses for using OpenAI product to generate data: [Prohibit developing models that cmpete with OpenAI](https://openai.com/policies/terms-of-use).
+
 [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
   * Base model: LLaMA-7B
   * Resource of instruction data: 
@@ -49,4 +51,14 @@ This repo is a literature review for instruction tunning for LLMs.
   * Amount of instruction data (after augmenting): 1000
   * Licenses: Unclear
 
+[LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402)
+  * Base model: Smaller scaled models (61M to 1.5B) (T5 all sizes, Flan-T5 all sizes, Cereberas-GPT all sizes, GPT-2 all sizes, GPT-Neo)
+  * Resource of instruction data: 
+    - Existing instuction datasets (self-instuct, P3, FLAN, Alpaca
+    - Automatic instruction augmentation using ChatGPT (gpt-3.5-turbo)
+    - Automatic topic augmentation using WikiPedia
+  * Amount of instruction data (after augmenting): 2.58M
+  * Licenses:
+    - Code: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
+    - Data: CC BY NC 4.0 (allowing only non-commercial use)
 
