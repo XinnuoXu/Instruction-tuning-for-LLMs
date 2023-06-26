@@ -41,7 +41,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Automatic augmentation using text-davinci-001
   * Amount of instruction data (after augmenting): 52K instcution with 82K input-output
   * Offering data or data-collection tool: Both
-  * Tested on multiple NLP tasks: No
+  * Tested on multiple NLP tasks: yes.
   * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
 
 [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
