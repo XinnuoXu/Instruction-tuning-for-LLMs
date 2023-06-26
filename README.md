@@ -41,7 +41,9 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Automatic augmentation using text-davinci-001
   * Amount of instruction data (after augmenting): 52K instcution with 82K input-output
   * Offering data or data-collection tool: Both
-  * Tested on multiple NLP tasks: yes.
+  * Tested on multiple NLP tasks:
+      - SuperNaturalInstruction testset 119 tasks with 100 instances in each task.
+      - Zero-shot (no in-context info, only task descriptions)
   * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
 
 [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
@@ -54,7 +56,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Humman annotated data
   * Amount of instruction data (after augmenting): 1000
   * Offering data or data-collection tool: Unclear
-  * Tested on multiple NLP tasks: No
+  * Tested on multiple NLP tasks:
+    - author collected data + instructions generated from AskReddit
   * Licenses: Unclear
 
 [LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402) :x:
@@ -64,7 +67,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Automatic instruction augmentation using ChatGPT (gpt-3.5-turbo)
     - Automatic topic augmentation using WikiPedia
   * Amount of instruction data (after augmenting): 2.58M
-  * Tested on multiple NLP tasks: Yes
+  * Tested on multiple NLP tasks: 15 diverse NLP tasks, covering QA, sentiment analysis, paraphrase identification, natural language inference, coreference resolution, word sense disambiguation, and sentence completion
   * Offering data or data-collection tool: Data
   * Licenses:
     - Code: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
