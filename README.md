@@ -185,17 +185,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Data: CC BY NC 4.0 (allowing only non-commercial use)
 
 
-[Natural instructions: benchmarking generalization to new tasks from natural language instructions](https://aclanthology.org/2022.acl-long.244.pdf)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses:
-
-
 [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
   * Date: 04/2023
   * In-context tuning or not: No
