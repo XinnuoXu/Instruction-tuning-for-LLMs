@@ -24,6 +24,17 @@ This repo is a literature review for instruction tunning for LLMs.
 
 Licenses for using OpenAI product to generate data: [Prohibit developing models that cmpete with OpenAI](https://openai.com/policies/terms-of-use).
 
+[Learning from Task Descriptions](https://aclanthology.org/2020.emnlp-main.105/)
+  * Date: 2020
+  * In-context tuning or not: No
+  * Base model: T5-11B
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting):
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses: 
+
+
 [Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR) **(FLAN2021)** 
   * Date: 09/2021
   * In-context tuning or not: No
@@ -152,16 +163,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
 
 
 [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
-
-[Learning from Task Descriptions](https://aclanthology.org/2020.emnlp-main.105/)
   * Date: 04/2023
   * In-context tuning or not: No
   * Base model: 
