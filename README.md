@@ -128,6 +128,29 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: Yes
   * Offering data or data-collection tool: Tool
   * Licenses: [GNU General Public License v3.0](https://github.com/facebookresearch/llama/blob/main/LICENSE) Software under the GPL may be run for all purposes, including commercial purposes and even as a tool for creating proprietary software, such as when using GPL-licensed compilers. Users or companies who distribute GPL-licensed works (e.g. software), may charge a fee for copies or give them free of charge.
+
+
+[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)(ChatGPT)
+  * Date: 04/2023
+  * In-context tuning or not: No
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+    
+[Language models are few-shot learners](https://arxiv.org/pdf/2005.14165.pdf) (GPT-3)
+  * Date: 04/2023
+  * In-context tuning or not: No
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+
+
   
 
 ## Knowledge Distillation
@@ -183,26 +206,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Offering data or data-collection tool: 
   * Licenses: 
 
-[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)(ChatGPT)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses:
-    
-[Language models are few-shot learners](https://arxiv.org/pdf/2005.14165.pdf) (GPT-3)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses:
-  * 
 
 [Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
   * Date: 04/2023
