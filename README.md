@@ -37,7 +37,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
 
 [Cross-Task Generalization via Natural Language Crowdsourcing Instructions (Also called Natural instructions: benchmarking generalization to new tasks from natural language instructions)](https://aclanthology.org/2022.acl-long.244/) **(Natural Instruction)**
   * Date: 04/2021
-  * In-context tuning or not: No
+  * In-context tuning or not: Yes (including positive and negative examples also an explanation of the negative examples)
   * Base model: BART
   * Resource of instruction data: Existing QA-based NLP datasets + human subtask and subtask instruction annotation.
   * Amount of instruction data (after augmenting):61 subtasks, e.g. qustion generation, answer generation, classification.. 193k instances
@@ -66,6 +66,17 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Word Sense Disambiguation, and BIG-Bench Hard.
   * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
   * Licenses: Depends on diffenernt datasets.
+
+
+[Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/) **(SuperNI)**
+  * Date: 04/2022
+  * In-context tuning or not: Yes (including positive and negative examples also an explanation of the negative examples, same as natural instructions)
+  * Base model: Tk-Instruct (11B)
+  * Resource of instruction data: existing NLP datasets + human subtask and subtask instruction annotation.
+  * Amount of instruction data (after augmenting): 76 exisiting NLP tasks, 1616 subtasks
+  * Tested on multiple NLP tasks: Splits from the annotated data
+  * Offering data or data-collection tool: Data
+  * Licenses: Unknown
 
 
 [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
@@ -183,17 +194,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses:
     - Code: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
     - Data: CC BY NC 4.0 (allowing only non-commercial use)
-
-
-[Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
 
 
 [Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
