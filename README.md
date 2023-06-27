@@ -57,6 +57,17 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: Depends on diffenernt datasets.
 
 
+[Cross-Task Generalization via Natural Language Crowdsourcing Instructions](https://aclanthology.org/2022.acl-long.244/)
+  * Date: 05/2022
+  * In-context tuning or not: No
+  * Base model: BART
+  * Resource of instruction data: Existing QA-based NLP datasets + human subtask and subtask instruction annotation.
+  * Amount of instruction data (after augmenting):61 subtasks, e.g. qustion generation, answer generation, classification.. 193k instances
+  * Tested on multiple NLP tasks: The test split of the annotated data
+  * Offering data or data-collection tool: Data
+  * Licenses: Haven't checked
+
+
 [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
   * Date: 12/2022
   * In-context tuning or not: No
@@ -163,16 +174,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
 
 
 [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
-
-[Cross-Task Generalization via Natural Language Crowdsourcing Instructions](https://aclanthology.org/2022.acl-long.244/)
   * Date: 04/2023
   * In-context tuning or not: No
   * Base model: 
