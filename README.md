@@ -35,6 +35,17 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 
+[Cross-Task Generalization via Natural Language Crowdsourcing Instructions (Also called Natural instructions: benchmarking generalization to new tasks from natural language instructions)](https://aclanthology.org/2022.acl-long.244/) **(Natural Instruction)**
+  * Date: 04/2021
+  * In-context tuning or not: No
+  * Base model: BART
+  * Resource of instruction data: Existing QA-based NLP datasets + human subtask and subtask instruction annotation.
+  * Amount of instruction data (after augmenting):61 subtasks, e.g. qustion generation, answer generation, classification.. 193k instances
+  * Tested on multiple NLP tasks: The test split of the annotated data
+  * Offering data or data-collection tool: Data
+  * Licenses: Haven't checked
+
+
 [Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR) **(FLAN2021)** 
   * Date: 09/2021
   * In-context tuning or not: No
@@ -55,17 +66,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Word Sense Disambiguation, and BIG-Bench Hard.
   * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
   * Licenses: Depends on diffenernt datasets.
-
-
-[Cross-Task Generalization via Natural Language Crowdsourcing Instructions](https://aclanthology.org/2022.acl-long.244/)
-  * Date: 05/2022
-  * In-context tuning or not: No
-  * Base model: BART
-  * Resource of instruction data: Existing QA-based NLP datasets + human subtask and subtask instruction annotation.
-  * Amount of instruction data (after augmenting):61 subtasks, e.g. qustion generation, answer generation, classification.. 193k instances
-  * Tested on multiple NLP tasks: The test split of the annotated data
-  * Offering data or data-collection tool: Data
-  * Licenses: Haven't checked
 
 
 [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
