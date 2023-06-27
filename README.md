@@ -65,14 +65,18 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Date: 12/2022 and 04/2023
   * In-context tuning or not: No
   * Base model: T5 and PaLM in different size (10B to 540B)
-  * Resource of instruction data: (here tasks == datasets)
+  * Resource of instruction data:
     - Muffin: 62 tasks in FLAN2021 + 26 tasks including dialouge data and program synthesis data (introduced in this work)
     - T0-SF: 193 tasks = T0 (P3) - the ones covered by Muffin
-    - NIV2: 1554 tasks
-  * Amount of instruction data (after augmenting)
+    - NIV2: 1554 tasks from Super-naturalInstruction
+  * Amount of instruction data (after augmenting): unknown, 473 datasets, 146 task categories, 1836 tasks
   * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses:
+    - MMLU: example questions from 57 tasks
+    - BBH: 23 tasks from BIG-Bench
+    - TyDiQA: QA benchmarks across 8 languages
+    - MGSM: multilingual benchmakr of math work problems manually translated into 10 languages
+  * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
+  * Licenses: Depends on diffenernt datasets.
   
 
 [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
