@@ -196,15 +196,11 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Data: CC BY NC 4.0 (allowing only non-commercial use)
 
 
+## Others
+
 [Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
+  * Base model: T0
+  * Aim at reducing catastrophic forgetting.
 
 [MetaICL: Learning to learn in context.](https://aclanthology.org/2022.naacl-main.201.pdf)
   * Date: 04/2023
