@@ -212,16 +212,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Offering data or data-collection tool: 
   * Licenses: 
 
-[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
-  * Date: 04/2023
-  * In-context tuning or not: No
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses:
-
 [MetaICL: Learning to learn in context.](https://aclanthology.org/2022.naacl-main.201.pdf)
   * Date: 04/2023
   * In-context tuning or not: No
