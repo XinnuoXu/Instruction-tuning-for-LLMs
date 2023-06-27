@@ -24,7 +24,30 @@ This repo is a literature review for instruction tunning for LLMs.
 
 Licenses for using OpenAI product to generate data: [Prohibit developing models that cmpete with OpenAI](https://openai.com/policies/terms-of-use).
 
+[Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR) **(FLAN2021)** 
+  * Date: 09/2021
+  * In-context tuning or not: No
+  * Base model: LaMDA-PT 137B
+  * Resource of instruction data: 62 NLP text datasets in 12 tasks
+  * Amount of instruction data (after augmenting): Unknown
+  * Tested on multiple NLP tasks: Test on each of the tasks when trained on the rest 11 tasks
+  * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
+  * Licenses: Depends on diffenernt datasets.
+
+
+[MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://openreview.net/pdf?id=9Vrb9D0WI4) **(P3)** also known as **T0**
+  * Date: 10/2021
+  * In-context tuning or not: No
+  * Base model: T5 11B and 3B
+  * Resource of instruction data: Existing NLP datasets on Multi-choice QA, Closed-Book QA, Extractive QA, Sentiment, Topic Classification, Structure-To-Text, Summarization, Praphrase Identification.
+  * Amount of instruction data (after augmenting): Not sure
+  * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Word Sense Disambiguation, and BIG-Bench Hard.
+  * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
+  * Licenses: Depends on diffenernt datasets.
+
+
 [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
+  * Date: 12/2022
   * In-context tuning or not: No
   * Base model: GPT-3 175B (text-davinci-001)
   * Resource of instruction data: 
@@ -33,12 +56,27 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Amount of instruction data (after augmenting): 52K instcution with 82K input-output
   * Offering data or data-collection tool: Both
   * Tested on multiple NLP tasks:
-      - SuperNaturalInstruction testset 119 tasks with 100 instances in each task.
-      - Zero-shot (no in-context info, only task descriptions)
+      - SuperNaturalInstruction NLP testset 119 tasks with 100 instances in each task.
   * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
 
 
+[Scaling Instruction-Finetuned Language Models](https://arxiv.org/pdf/2210.11416.pdf) and 
+[The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/pdf/2301.13688.pdf) **(FLAN 2022)**
+  * Date: 12/2022 and 04/2023
+  * In-context tuning or not: No
+  * Base model: T5 and PaLM in different size (10B to 540B)
+  * Resource of instruction data: (here tasks == datasets)
+    - Muffin: 62 tasks in FLAN2021 + 26 tasks including dialouge data and program synthesis data (introduced in this work)
+    - T0-SF: 193 tasks = T0 (P3) - the ones covered by Muffin
+    - NIV2: 1554 tasks
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+  
+
 [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
+  * Date: 05/2023
   * In-context tuning or not: No
   * Base model: LLaMA-65B
   * Resource of instruction data: 
@@ -54,17 +92,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: Unclear
 
 
-[MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://openreview.net/pdf?id=9Vrb9D0WI4) (P3)
-  * In-context tuning or not: No
-  * Base model: T5 11B and 3B
-  * Resource of instruction data: Existing NLP datasets on Multi-choice QA, Closed-Book QA, Extractive QA, Sentiment, Topic Classification, Structure-To-Text, Summarization, Praphrase Identification.
-  * Amount of instruction data (after augmenting): Not sure
-  * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Word Sense Disambiguation, and BIG-Bench Hard.
-  * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
-  * Licenses: Depends on diffenernt datasets.
-
-
 [SAIL: Search-Augmented Instruction Learning](https://arxiv.org/abs/2305.15225) :white_check_mark:
+  * Date: 05/2023
   * Base model: LLaMA-7B
   * Resource of instruction data: 
     - Existing instuction datasets Alpaca
@@ -80,6 +109,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
 [Sequence-Level Knowledge Distillation](https://aclanthology.org/D16-1139.pdf)
 
 [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) :x:
+  * Date: 2023
   * In-context tuning or not: No
   * Base model: LLaMA-7B
   * Resource of instruction data: 
@@ -91,6 +121,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: Alpaca is intended and licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. The weight diff is also CC BY NC 4.0 (allowing only non-commercial use).
 
 [LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://arxiv.org/abs/2304.14402) :x:
+  * Date: 04/2023
   * In-context tuning or not: No
   * Base model: Smaller scaled models (61M to 1.5B) (T5 all sizes, Flan-T5 all sizes, Cereberas-GPT all sizes, GPT-2 all sizes, GPT-Neo)
   * Resource of instruction data: 
@@ -104,15 +135,10 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - Code: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
     - Data: CC BY NC 4.0 (allowing only non-commercial use)
 
-[The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/pdf/2301.13688.pdf) (FLAN)
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
 
 [Natural instructions: benchmarking generalization to new tasks from natural language instructions](https://aclanthology.org/2022.acl-long.244.pdf)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -122,6 +148,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
 
 
 [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -130,6 +158,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [Learning from Task Descriptions](https://aclanthology.org/2020.emnlp-main.105/)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -138,14 +168,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [Cross-Task Generalization via Natural Language Crowdsourcing Instructions](https://aclanthology.org/2022.acl-long.244/)
-  * Base model: 
-  * Resource of instruction data: 
-  * Amount of instruction data (after augmenting)
-  * Tested on multiple NLP tasks:
-  * Offering data or data-collection tool: 
-  * Licenses: 
-
-[Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -154,6 +178,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)(ChatGPT)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -162,6 +188,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses:
     
 [Language models are few-shot learners](https://arxiv.org/pdf/2005.14165.pdf) (GPT-3)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -171,6 +199,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * 
 
 [Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -179,6 +209,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -187,6 +219,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses:
 
 [MetaICL: Learning to learn in context.](https://aclanthology.org/2022.naacl-main.201.pdf)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
@@ -195,6 +229,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [ConTinTin: Continual Learning from Task Instructions](https://aclanthology.org/2022.acl-long.218/)
+  * Date: 04/2023
+  * In-context tuning or not: No
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
