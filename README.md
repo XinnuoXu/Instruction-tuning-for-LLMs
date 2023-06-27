@@ -59,7 +59,7 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Base model: T5 11B and 3B
   * Resource of instruction data: Existing NLP datasets on Multi-choice QA, Closed-Book QA, Extractive QA, Sentiment, Topic Classification, Structure-To-Text, Summarization, Praphrase Identification.
   * Amount of instruction data (after augmenting): Not sure
-  * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Work Sense Disambiguation.
+  * Tested on multiple NLP tasks: Sentence Competion, Natural Language Inference, Coreference Resolution, Word Sense Disambiguation, and BIG-Bench Hard.
   * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
   * Licenses: Depends on diffenernt datasets.
 
@@ -76,6 +76,8 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   
 
 ## Knowledge Distillation
+
+[Sequence-Level Knowledge Distillation](https://aclanthology.org/D16-1139.pdf)
 
 [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) :x:
   * In-context tuning or not: No
@@ -109,6 +111,15 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks:
   * Offering data or data-collection tool: 
   * Licenses: 
+
+[Natural instructions: benchmarking generalization to new tasks from natural language instructions](https://aclanthology.org/2022.acl-long.244.pdf)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+
 
 [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://aclanthology.org/2022.emnlp-main.340/)
   * Base model: 
@@ -148,7 +159,16 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Amount of instruction data (after augmenting)
   * Tested on multiple NLP tasks:
   * Offering data or data-collection tool: 
-  * Licenses: 
+  * Licenses:
+    
+[Language models are few-shot learners](https://arxiv.org/pdf/2005.14165.pdf) (GPT-3)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+  * 
 
 [Fine-tuned Language Models are Continual Learners](https://aclanthology.org/2022.emnlp-main.410/)
   * Base model: 
@@ -159,6 +179,14 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: 
 
 [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
+  * Base model: 
+  * Resource of instruction data: 
+  * Amount of instruction data (after augmenting)
+  * Tested on multiple NLP tasks:
+  * Offering data or data-collection tool: 
+  * Licenses:
+
+[MetaICL: Learning to learn in context.](https://aclanthology.org/2022.naacl-main.201.pdf)
   * Base model: 
   * Resource of instruction data: 
   * Amount of instruction data (after augmenting)
