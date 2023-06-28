@@ -20,7 +20,7 @@ This repo is a literature review for instruction tunning for LLMs.
   - Scales: 175B
   - Licenses: 
 
-## Instruction Tuning
+## Instruction Tuning for NLP tasks
 
 Licenses for using OpenAI product to generate data: [Prohibit developing models that cmpete with OpenAI](https://openai.com/policies/terms-of-use).
 
@@ -79,20 +79,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Licenses: Unknown
 
 
-[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
-  * Date: 12/2022
-  * In-context tuning or not: No
-  * Base model: GPT-3 175B (text-davinci-001)
-  * Resource of instruction data: 
-    - 175 human-written self-instruct seeds
-    - Automatic augmentation using text-davinci-001
-  * Amount of instruction data (after augmenting): 52K instcution with 82K input-output
-  * Offering data or data-collection tool: Both
-  * Tested on multiple NLP tasks:
-      - SuperNaturalInstruction NLP testset 119 tasks with 100 instances in each task.
-  * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
-
-
 [Scaling Instruction-Finetuned Language Models](https://arxiv.org/pdf/2210.11416.pdf) and 
 [The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/pdf/2301.13688.pdf) **(FLAN 2022)**
   * Date: 12/2022 and 04/2023
@@ -109,8 +95,23 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - TyDiQA: QA benchmarks across 8 languages
     - MGSM: multilingual benchmakr of math work problems manually translated into 10 languages
   * Offering data or data-collection tool: All NLP datasets used in the study are open-sourced.
-  * Licenses: Depends on diffenernt datasets.
-  
+  * Licenses: Depends on diffenernt datasets.  
+
+
+## Instruction Tuning for general usage
+
+[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) :white_check_mark:
+  * Date: 12/2022
+  * In-context tuning or not: No
+  * Base model: GPT-3 175B (text-davinci-001)
+  * Resource of instruction data: 
+    - 175 human-written self-instruct seeds
+    - Automatic augmentation using text-davinci-001
+  * Amount of instruction data (after augmenting): 52K instcution with 82K input-output
+  * Offering data or data-collection tool: Both
+  * Tested on multiple NLP tasks:
+      - SuperNaturalInstruction NLP testset 119 tasks with 100 instances in each task.
+  * Licenses: Apache-2.0 license (End-users can utilize the Apache 2.0 license in any commercially licensed software or enterprise application for free. However, Apache trademarks must not be used in the licensed proprietary software or any of the software's legal or organizational documentation.)
 
 [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf) :question:
   * Date: 05/2023
@@ -128,7 +129,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
     - author collected data + instructions generated from AskReddit
   * Licenses: Unclear
 
-
 [SAIL: Search-Augmented Instruction Learning](https://arxiv.org/abs/2305.15225) :white_check_mark:
   * Date: 05/2023
   * Base model: LLaMA-7B
@@ -139,7 +139,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks: Yes
   * Offering data or data-collection tool: Tool
   * Licenses: [GNU General Public License v3.0](https://github.com/facebookresearch/llama/blob/main/LICENSE) Software under the GPL may be run for all purposes, including commercial purposes and even as a tool for creating proprietary software, such as when using GPL-licensed compilers. Users or companies who distribute GPL-licensed works (e.g. software), may charge a fee for copies or give them free of charge.
-
 
 [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)(ChatGPT)
   * Date: 04/2023
@@ -160,8 +159,6 @@ Licenses for using OpenAI product to generate data: [Prohibit developing models 
   * Tested on multiple NLP tasks:
   * Offering data or data-collection tool: 
   * Licenses:
-
-
   
 
 ## Knowledge Distillation
